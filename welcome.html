@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="displayWelcomeUser()">
+    <nav class="navbar navbar-light navbar-expand-lg shadow pt-3">
+        <div class="container">
+            <a class="navbar-brand text-primary fs-3 fw-medium" href="#">Smart Login</a>
+            <ul class="navbar-nav ms-auto">
+                <li>
+                    <a onclick="logOut()" id="logOutBtn" class="btn btn-outline-danger fs-5 fw-medium">Log out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class=" welcome-height d-flex align-items-center">
+        <div class="mx-auto w-50 shadow-lg p-5 text-center text-white bg-primary rounded-3">
+            <h1 id="userName"></h1>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
